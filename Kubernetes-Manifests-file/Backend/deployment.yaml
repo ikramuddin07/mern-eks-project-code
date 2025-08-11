@@ -21,6 +21,11 @@ spec:
       labels:
         role: api
     spec:
+      tolerations:
+        - key: "dedicated"
+          operator: "Equal"
+          value: "on-demand"
+          effect: "NoSchedule"
       imagePullSecrets:
       - name: ecr-registry-secret
       containers:
