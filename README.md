@@ -180,17 +180,9 @@ The Jenkins pipeline includes the following stages:
 - **Caching**: Application-level caching strategies
 - **Auto-scaling**: Kubernetes horizontal pod autoscaling
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Implement changes with appropriate testing
-4. Ensure code quality standards are met
-5. Submit a pull request with detailed description
-
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
