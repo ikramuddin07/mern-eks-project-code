@@ -20,7 +20,12 @@ spec:
     metadata:
       labels:
         role: frontend
-    spec: 
+    spec:
+      tolerations:
+        - key: "dedicated"
+          operator: "Equal"
+          value: "on-demand"
+          effect: "NoSchedule" 
       imagePullSecrets:
       - name: ecr-registry-secret
       containers:
